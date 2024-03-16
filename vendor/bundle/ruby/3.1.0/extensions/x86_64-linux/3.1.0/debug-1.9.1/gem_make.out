@@ -1,0 +1,16 @@
+current directory: /home/developer/project/user_decorator_example/vendor/bundle/ruby/3.1.0/gems/debug-1.9.1/ext/debug
+/home/developer/.rvm/rubies/ruby-3.1.2/bin/ruby -I /home/developer/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20240316-16088-4n51r7.rb extconf.rb
+creating Makefile
+
+current directory: /home/developer/project/user_decorator_example/vendor/bundle/ruby/3.1.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= clean
+
+current directory: /home/developer/project/user_decorator_example/vendor/bundle/ruby/3.1.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/developer/project/user_decorator_example/vendor/bundle/ruby/3.1.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20240316-16088-d9da0k/debug
