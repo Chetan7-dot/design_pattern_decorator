@@ -2,7 +2,7 @@
 <div >
   <% @users.each do |user| %>
     <div>
-      <p><strong>Name:</strong> <%= user.name %> <%= user.surname %></p>
+      <p><strong>Name:</strong> <%= user.full_name %></p>
       <p><strong>Email:</strong> <%= user.email %></p>
       <%= link_to "Show this user", user %>
     </div>
